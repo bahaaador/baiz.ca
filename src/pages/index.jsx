@@ -42,7 +42,7 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 font-sans text-2xl lg:text-3xl xl:text-4xl`};
 `
 
 const AboutDesc = styled.p`
@@ -60,14 +60,14 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={5}>
+    <Parallax pages={3}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hi, <br /> I'm Bahador.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>Full Stack Software Brewer :) <br/> Toronto, Canada. </Subtitle>
       </Hero>
-      <Projects offset={1}>
+      {/* <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
@@ -99,36 +99,38 @@ const Index = () => (
             A fantasy image manipulation relocating the habitat of wild animals.
           </ProjectCard>
         </ProjectsWrapper>
-      </Projects>
-      <About offset={3}>
+      </Projects> */}
+      <About offset={1}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+          9+ years of professional experience in web development, analytical and passionate about web & mobile, a knack for UX and strong problem-solving skills.
           </AboutSub>
         </AboutHero>
-        <AboutDesc>
+        {/* <AboutDesc>
           You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
           every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
           make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
           want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
           right?
-        </AboutDesc>
+        </AboutDesc> */}
       </About>
-      <Contact offset={4}>
+      <Contact offset={2}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/baha2r">Github</a> ,{' '}
+            <a href="https://twitter.com/baiz_ca">Twitter</a> ,{' '}
+
+            
+            <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah">StackOverflow</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
+          &copy; 2019 {' '} Bahador I.<br/>
+           Template Made by{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
