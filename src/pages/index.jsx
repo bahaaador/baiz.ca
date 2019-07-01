@@ -63,9 +63,9 @@ const Index = () => (
     <Parallax pages={3}>
       <Hero offset={0}>
         <BigTitle>
-          Hi, <br /> I'm Bahador.
+          Hi, <br /> I'm Bahador! :)
         </BigTitle>
-        <Subtitle>Full Stack Software Brewer :) <br/> Toronto, Canada. </Subtitle>
+        <Subtitle>Full Stack Software Brewer<br/> Toronto, Canada. </Subtitle>
       </Hero>
       {/* <Projects offset={1}>
         <Title>Projects</Title>
@@ -120,12 +120,12 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on other platforms:{' '}
-            <a href="https://github.com/baha2r">Github</a> ,{' '}
+            Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on:{' '}
+            <a href="https://github.com/baha2r">Github</a> or {' '}
             <a href="https://twitter.com/baiz_ca">Twitter</a> ,{' '}
 
             
-            <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah">StackOverflow</a>
+            <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah">StackOverflow</a>.
           </ContactText>
         </Inner>
         <Footer>
