@@ -67,7 +67,7 @@ const Index = () => (
         </BigTitle>
         <Subtitle>
           Full Stack Software Brewer
-          <br /> Toronto, Canada.{" "}
+          <br /> Toronto, CA.
         </Subtitle>
       </Hero>
       {/* <Projects offset={1}>
