@@ -1,23 +1,23 @@
-import React from "react";
-import styled from "styled-components";
-import tw from "tailwind.macro";
-import { Parallax } from "react-spring/renderprops-addons.cjs";
+import React from 'react';
+import styled from 'styled-components';
+import tw from 'tailwind.macro';
+import { Parallax } from 'react-spring/renderprops-addons.cjs';
 
 // Components
-import Layout from "../components/Layout";
-import ProjectCard from "../components/ProjectCard";
+import Layout from '../components/Layout';
+import ProjectCard from '../components/ProjectCard';
 
 // Elements
-import Inner from "../elements/Inner";
-import { Title, BigTitle, Subtitle } from "../elements/Titles";
+import Inner from '../elements/Inner';
+import { Title, BigTitle, Subtitle } from '../elements/Titles';
 
 // Views
-import Hero from "../views/Hero";
-import Projects from "../views/Projects";
-import About from "../views/About";
-import Contact from "../views/Contact";
+import Hero from '../views/Hero';
+import Projects from '../views/Projects';
+import About from '../views/About';
+import Contact from '../views/Contact';
 
-import avatar from "../images/avatar.jpg";
+import avatar from '../images/avatar.jpg';
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -106,11 +106,10 @@ const Index = () => (
       <About offset={1}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Bahador Izadpanah profile picture" />
           <AboutSub>
-            9+ years of professional experience in web development, analytical
-            and passionate about web & mobile, a knack for UX and strong
-            problem-solving skills.
+            10+ years of professional experience in web development, analytical and passionate about web & mobile, a
+            knack for UX and strong problem-solving skills.
           </AboutSub>
         </AboutHero>
         {/* <AboutDesc>
@@ -125,17 +124,13 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on:{" "}
-            <a href="https://github.com/baha2r">Github</a>,{" "}
-            <a href="https://twitter.com/baiz_ca">Twitter</a> or{" "}
-            <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah">
-              StackOverflow
-            </a>
-            .
+            Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on:
+            <a href="https://github.com/baha2r"> Github</a>,<a href="https://twitter.com/izi_bizzy"> Twitter</a> or
+            <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah"> StackOverflow</a>.
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 Bahador I.
+          &copy; {new Date().getFullYear()} Bahador I.
           <br />
           Template Made by <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
