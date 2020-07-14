@@ -85,7 +85,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:hi@baiz.ca">Hi</a> or find me on:
-            <a href="https://github.com/bahaaador"> Github</a>,<a href="https://twitter.com/bahaaador"> Twitter</a> or
+            <a href="https://github.com/bahaaador"> GitHub</a>,<a href="https://twitter.com/bahaaador"> Twitter</a> or
             <a href="https://stackoverflow.com/users/1312222/bahador-izadpanah"> StackOverflow</a>.
           </ContactText>
         </Inner>
